@@ -9,3 +9,5 @@ app.listen(config.port, err => {
     return;
   }
 });
+
+console.log('port open :' + config.port);
